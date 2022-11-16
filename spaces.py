@@ -1,7 +1,7 @@
 import cv2 as cv
 
 img = cv.imread('photos/izta.jpg')
-cv.imshow('car', img)
+cv.imshow('izta', img)
 
 #BGR to grayscale
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
